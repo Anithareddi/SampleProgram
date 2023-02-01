@@ -14,6 +14,8 @@ public class CreateNewWindow {
 		// TODO Auto-generated method stub
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
+		//implicity wait
+		
 		driver.navigate().to("https://www.catch.com.au/");
 		//driver.manage().window().maximize();
 		driver.switchTo().newWindow(WindowType.TAB);
